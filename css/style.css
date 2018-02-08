@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Anchor Steam';
+	src: url(../fonts/AnchorSteamNF.ttf)
+}
+body {
+	background: #774444;
+	background: url(../img/Pizza.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#main-container {
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+}
+.jumbotron {
+	background: #4D2828;
+	opacity: .9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.anchor-steam {
+	font-family: 'Anchor Steam';
+}
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size: 50px;
+	line-height: 40px;
+}
+p {
+	font-family: Calibri, san serif;
+	font-size: 14px;
+	line-height:17px;
+}
+.card {
+	background: #BBB9A5;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.card-body label {
+	width: 100%;
+	text-align: left;
+}

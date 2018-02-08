@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+	 <head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha38http://www.esvbible.org/devotions/chronological/4-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+
+		<title>Pizza Menu</title>
+	</head>
+	<body>
+		
+		<!-- Header -->
+		<header class="jumbotron text-center text-light mt-5">
+			<h1 class="anchor-steam">Order Your Pizza</h1>
+		</header>
+		<!-- End Header -->
+		
+		<!-- Submission Form -->
+		<div class="container p-0">
+			<div class="card my-5">
+				<div class="card-body" id="size">
+					<h2 class="anchor-steam">Pizza Size</h2>
+					<div data-toggle="buttons">
+						<label class="btn btn-secondary text-truncate active"><input type="radio" name="size" id="size-personal" autocomplete="off" alt="Personal Pizza" value="6" checked> $6 - Personal Pizza (10 inch)</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="size" id="size-medium" autocomplete="off" alt="Medium Pizza" value="10"> $10 - Medium Pizza (14 inch)</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="size" id="size-large" autocomplete="off" alt="Large Pizza" value="14"> $14 - Large Pizza (18 inch)</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="size" id="size-xlarge" autocomplete="off" alt="X-Large Pizza" value="16"> $16 - X-Large Pizza (21 inch)</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card my-5">
+				<div class="card-body" id="meat">
+					<h2 class="anchor-steam">Meats</h2>
+					<p>Add $1 for each choice, first choice is complementary</p>
+					<div data-toggle="buttons">
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="meats" id="meat-pepperoni" autocomplete="off" alt="Pepperoni" value="1"> Pepperoni</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="meats" id="meat-sausage" autocomplete="off" alt="Sausage" value="1"> Sausage</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="meats" id="meat-canadian-bacon" autocomplete="off" alt="Canadian Bacon" value="1"> Canadian Bacon</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="meats" id="meat-ground-beef" autocomplete="off" alt="Ground Beef" value="1"> Ground Beef</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="meats" id="meat-anchovy" autocomplete="off" alt="Anchovy" value="1"> Anchovy</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="meats" id="meat-chicken" autocomplete="off" alt="Chicken" value="1"> Chicken</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card my-5">
+				<div class="card-body" id="cheese">
+					<h2 class="anchor-steam">Cheese</h2>
+					<div data-toggle="buttons">
+						<label class="btn btn-secondary text-truncate active"><input type="radio" name="cheese" id="cheese-reg" autocomplete="off" alt="Regular" value="0" checked> Regular</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="cheese" id="cheese-no" autocomplete="off" alt="No Cheese" value="0"> No Cheese</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="cheese" id="cheese-extra" autocomplete="off" alt="Extra Cheese" value="3"> Extra Cheese ($3)</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card my-5">
+				<div class="card-body" id="crust">
+					<h2 class="anchor-steam">Crust</h2>
+					<div data-toggle="buttons">
+						<label class="btn btn-secondary text-truncate active"><input type="radio" name="crust" id="crust-plain" autocomplete="off" value="0" alt="Plain Crust" checked> Plain Crust</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="crust" id="crust-garlic" autocomplete="off" value="0" alt="Garlic Butter Crust"> Garlic Butter Crust</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="crust" id="crust-cheese" autocomplete="off" value="3" alt="Cheese Stuffed Crust"> Cheese Stuffed Crust ($3)</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="crust" id="crust-spicy" autocomplete="off" value="0" alt="Spicy Crust"> Spicy Crust</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="crust" id="crust-house" autocomplete="off" value="0" alt="House Special Crust"> House Special Crust</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card my-5">
+				<div class="card-body" id="sauce">
+					<h2 class="anchor-steam">Sauce</h2>
+					<div data-toggle="buttons">
+						<label class="btn btn-secondary text-truncate active"><input type="radio" name="sauce" id="sauce-marinara" autocomplete="off" value="0" alt="Marinara Sauce" checked> Marinara Sauce</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="sauce" id="sauce-white" autocomplete="off" value="0" alt="White Sauce"> White Sauce</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="sauce" id="sauce-bbq" autocomplete="off" value="0" alt="Barbecue Sauce"> Barbecue Sauce</label>
+						<label class="btn btn-secondary text-truncate"><input type="radio" name="sauce" id="sauce-no" autocomplete="off" value="0" alt="No Sauce"> No Sauce</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card my-5">
+				<div class="card-body" id="veggies">
+					<h2 class="anchor-steam">Veggies</h2>
+					<p>Add $1 for each choice, first choice is complementary</p>
+					<div data-toggle="buttons">
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="veggies-tomatoes" autocomplete="off" value="1" alt="Tomatoes"> Tomatoes</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="veggies" autocomplete="off" value="1" alt="Onions"> Onions</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="meat-canadian-bacan" autocomplete="off" value="1" alt="Olives"> Olives</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="meat-ground-beef" autocomplete="off" value="" alt="Green Peppers"> Green Peppers</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="meat-anchovy" autocomplete="off" value="1" alt="Mushrooms"> Mushrooms</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="meat-chicken" autocomplete="off" value="1" alt="Pineapple"> Pineapple</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="meat-chicken" autocomplete="off" value="1" alt="Spinach"> Spinach</label>
+						<label class="btn btn-secondary text-truncate"><input type="checkbox" name="veggies" id="meat-chicken" autocomplete="off" value="1" alt="Jalapeño"> Jalapeño</label>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- End Submission Form -->
+		
+		<!-- Buttons -->
+		<div class="jumbotron text-center">
+			<button type="button" class="btn btn-danger btn-lg" onclick="printInputs()" data-toggle="modal" data-target="#exampleModalCenter">Submit Order</button>
+		</div>
+		<!-- End Buttons -->
+		
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title anchor-steam" id="exampleModalLongTitle">Your Order Receipt:</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+					
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-8"><strong>Pizza Size:</strong> <span id="print-size"></span></div>
+								<div class="col-sm-4 text-right">$  <span id="print-size-cost"></span></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8"><strong>Meat Type:</strong> <span id="print-meats"></span></div>
+								<div class="col-sm-4 text-right">$  <span id="print-meats-cost"></span></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8"><strong>Cheese Quantity:</strong> <span id="print-cheese"></span></div>
+								<div class="col-sm-4 text-right">$  <span id="print-cheese-cost"></span></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8"><strong>Crust:</strong> <span id="print-crust"></span></div>
+								<div class="col-sm-4 text-right">$  <span id="print-crust-cost"></span></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8"><strong>Sauce:</strong> <span id="print-sauce"></span></div>
+								<div class="col-sm-4 text-right">$  <span id="print-sauce-cost"></span></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8"><strong>Veggies:</strong> <span id="print-veggies"></span></div>
+								<div class="col-sm-4 text-right">$  <span id="print-veggies-cost"></span></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8"><strong>Total Cost:</strong></div>
+								<div class="col-sm-4 text-right"><strong>$ <span id="print-total-cost"></span></strong></div>
+							</div>
+						</div>					
+					
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger">Print Receipt</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Modal -->
+		
+		<!-- jQuery first, then Popper.js, then Bootstrap JS, then my JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="./script/script.js"></script>
+
+	</body>
+</html>
